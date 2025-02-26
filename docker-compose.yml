@@ -1,0 +1,30 @@
+version: '3'
+
+services:
+  sales:
+    build: sales
+    mem_limit: 512m
+    ports:
+      - "8081:8080"
+    environment:
+      DB_URL: jdbc:mysql://app_sales:3306/sales?useSSL=false&serverTimezone=UTC
+      DB_USERNAME: root
+      DB_PASSWORD: 
+    restart: always
+    depends_on:
+      app_sales:
+          condition: service_healthy
+  app_sales:
+    image: mysql:8.0.33 
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+      MYSQL_ROOT_PASSWORD: 
+      MYSQL_PASSWORD: 
+      MYSQL_DATABASE: sales
+    restart: always
+    healthcheck:
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost"]
+      timeout: 10s
+      retries: 10
