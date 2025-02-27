@@ -1,0 +1,17 @@
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\controller\ClientController.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\controller\ProductController.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\controller\SaleController.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\dto\SaleDTO.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\model\Client.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\model\Product.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\model\Sale.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\repository\IClientRepository.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\repository\IProductRepository.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\repository\ISaleRepository.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\SalesApplication.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\service\ClientService.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\service\IClientService.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\service\IProductService.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\service\ISaleService.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\service\ProductService.java
+C:\Users\sofia\Desktop\sales\sales\src\main\java\com\sofiafranco\sales\service\SaleService.java

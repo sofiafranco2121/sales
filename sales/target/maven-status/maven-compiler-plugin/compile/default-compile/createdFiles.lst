@@ -1,0 +1,17 @@
+com\sofiafranco\sales\service\ClientService.class
+com\sofiafranco\sales\service\IClientService.class
+com\sofiafranco\sales\model\Client.class
+com\sofiafranco\sales\service\IProductService.class
+com\sofiafranco\sales\dto\SaleDTO.class
+com\sofiafranco\sales\service\ProductService.class
+com\sofiafranco\sales\controller\ClientController.class
+com\sofiafranco\sales\model\Sale.class
+com\sofiafranco\sales\service\ISaleService.class
+com\sofiafranco\sales\controller\ProductController.class
+com\sofiafranco\sales\service\SaleService.class
+com\sofiafranco\sales\repository\IClientRepository.class
+com\sofiafranco\sales\SalesApplication.class
+com\sofiafranco\sales\repository\IProductRepository.class
+com\sofiafranco\sales\repository\ISaleRepository.class
+com\sofiafranco\sales\controller\SaleController.class
+com\sofiafranco\sales\model\Product.class
